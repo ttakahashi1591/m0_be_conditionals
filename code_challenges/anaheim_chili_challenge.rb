@@ -4,11 +4,12 @@
 #The program should print out the String "even" if the Integer is even, 
 #and the String "odd" if the Integer is odd.
 
-age = 32
+age = 22
 
 if age % 2 == 0
     puts "even"
-else 
+else
     puts "odd"
-end
+end 
+
 
