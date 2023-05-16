@@ -115,3 +115,6 @@ puts loves_to_play && age < 3
 # ANSWER: My finals line of code came out as true because the dog is a puppy and they also love to play. 
 # Since both are true and it is an && statement, then the it is true. && statements must have
 # Both values be true. 
+
+# Note: I made a mistake and made this file's commit my "Initial commit" but it was already committed 
+# So I am adding this so I can practice my commit once again. 
