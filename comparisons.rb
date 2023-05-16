@@ -22,24 +22,31 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+puts "Is number_teachers less than number_students?", number_teachers < number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+puts "Is number_teachers not equal to number_students?", number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts "Is number_students greater than or equal to 20?", number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+puts "Is number_students greater than or equal to 21?", number_students >= 21
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+puts "Is number_students less than or equal to 20?", number_students <= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+puts "Is number_students less than or equal to 21?", number_students <= 21
 # this should print: true
 
 
@@ -53,21 +60,24 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: This command will print out the word "true" in the terminal as 4 is less than 9.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: This command will print out the word "false" in the terminal as 4 is greater than the 
+# 3, which is the amoount listed for the variable "books." 
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: This command will print out the word "true" since the variable of friends, which equals 6, is
+# Greater than the variable sibling, which is equal to 2. 
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: This command will print out the word "true" since the variable attendees, which equals 9, is
+# Indeed not equal to the variable meals, which is equal to 8. 
 
 
 #-------------------
@@ -90,15 +100,18 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age < 3
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: My finals line of code came out as true because the dog is a puppy and they also love to play. 
+# Since both are true and it is an && statement, then the it is true. && statements must have
+# Both values be true. 
